@@ -4,11 +4,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "ImSDK_Plus",
+    name: "TXIMSDK_Plus_iOS",
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "ImSDK_Plus",
+            name: "TXIMSDK_Plus_iOS",
             targets: ["ImSDK_Plus_xcframework"]),
     ],
     targets: [
